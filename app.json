@@ -1,0 +1,52 @@
+{
+   "name": "DemoApp",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Default",
+         "path": "resources/css/sencha-touch-4c51fe7c-235b-4d03-a1ef-3774562a6b92.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "cbd4e4eb-bf83-45c2-8d24-feff3790a4c4"
+}

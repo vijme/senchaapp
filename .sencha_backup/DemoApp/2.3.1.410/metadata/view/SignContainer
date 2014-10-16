@@ -1,0 +1,192 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "signcontainer",
+        "designer|userClassName": "SignContainer",
+        "scrollable": "vertical"
+    },
+    "name": "MyContainer",
+    "designerId": "06f17b99-18da-45b4-bf16-6b70f36f6858",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "SIGN UP"
+            },
+            "name": "MyTitleBar",
+            "designerId": "e9e9cb8d-abd7-4ee7-af3a-6555a4253106"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Name"
+            },
+            "name": "MyTextField2",
+            "designerId": "2c3be563-b74c-4c24-a81c-bd36e245d3cb"
+        },
+        {
+            "type": "Ext.field.Select",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Gender"
+            },
+            "name": "MySelectField",
+            "designerId": "41bc36c6-ba1c-4e63-beff-537a2800749e"
+        },
+        {
+            "type": "Ext.field.DatePicker",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Birthdate",
+                "placeHolder": "mm/dd/yyyy"
+            },
+            "name": "MyDatePicker",
+            "designerId": "0d9331d7-8460-4f98-b1f6-0c9c5b9b6941",
+            "cn": [
+                {
+                    "type": "Ext.picker.Date",
+                    "reference": {
+                        "name": "picker",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyDatePicker1",
+                    "designerId": "ec558b05-649c-45e9-bac8-64db563e5c6e",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "doneButton",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Done"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "993a6336-f9bc-4f3a-9e52-bc0775d11432"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "cancelButton",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Cancel"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "4a680a49-f978-4419-b4f1-3a57f8d54a00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Weight"
+            },
+            "name": "MyTextField3",
+            "designerId": "c1c0cfab-acdc-4ee1-9eab-fe5263e353a6"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "HospitalID"
+            },
+            "name": "MyTextField4",
+            "designerId": "9c663ec8-b674-4c19-8fb3-dea86c4ca944"
+        },
+        {
+            "type": "Ext.field.Email",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "emailID",
+                "placeHolder": "email@example.com"
+            },
+            "name": "MyEmailField",
+            "designerId": "bbdfcb43-8c21-4462-9461-158796955815"
+        },
+        {
+            "type": "Ext.field.Password",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Passwd"
+            },
+            "name": "MyPasswordField",
+            "designerId": "a5b4f462-7441-4642-8b5d-a98601caf9b5"
+        },
+        {
+            "type": "Ext.field.Password",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 73,
+                "label": "Retype Passwd",
+                "labelWrap": true
+            },
+            "name": "MyPasswordField1",
+            "designerId": "07da876d-29b4-482a-a04d-8c440adc3317"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "SIGN UP"
+            },
+            "name": "MyButton3",
+            "designerId": "b866b12b-248f-4b73-a147-42e5aa381bc2"
+        }
+    ]
+}

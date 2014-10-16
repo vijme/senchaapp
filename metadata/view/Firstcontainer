@@ -1,0 +1,151 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": null,
+        "designer|userAlias": "firstcontainer",
+        "designer|userClassName": "Firstcontainer",
+        "padding": 40
+    },
+    "name": "MyContainer",
+    "designerId": "7c327df4-9d73-4358-97dc-7f192c462d28",
+    "cn": [
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 54,
+                "id": null,
+                "itemId": "firstSignIn",
+                "padding": null,
+                "text": "New User? SIGN UP"
+            },
+            "name": "MyButton5",
+            "designerId": "2cf8a199-cca0-4c68-83a3-ccc72b83486a",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onFirstSignInTap",
+                        "implHandler": [
+                            "      Ext.Viewport.add(",
+                            "               {",
+                            "                        xtype: 'signcontainer'",
+                            "                    }",
+                            "                    );",
+                            "      Ext.Viewport.setActiveItem(",
+                            "                {",
+                            "                    xtype: 'signcontainer'",
+                            "                });",
+                            ""
+                        ],
+                        "name": "tap"
+                    },
+                    "name": "onFirstSignInTap",
+                    "designerId": "f0f0f82e-de9d-4306-908f-873394a020d9"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": null,
+                "designer|displayName": "Spacer",
+                "height": 26,
+                "width": null
+            },
+            "name": "MySpacer",
+            "designerId": "04ff6e64-80f1-4913-8ad4-83ddca786f3d"
+        },
+        {
+            "type": "Ext.Img",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 201,
+                "padding": null,
+                "src": "heartbeat.jpg"
+            },
+            "name": "MyImg",
+            "designerId": "0cfc98a9-0d51-4a0d-b86c-152e6250801a"
+        },
+        {
+            "type": "Ext.Spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 30
+            },
+            "name": "MySpacer1",
+            "designerId": "b4d6b05c-c4ce-4206-83d3-e39090a97c23"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 54,
+                "itemId": "firstLogin",
+                "padding": null,
+                "text": "LOGIN"
+            },
+            "name": "MyButton6",
+            "designerId": "92f73714-d28a-4f97-8cd0-a31913092770",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onFirstLoginTap",
+                        "implHandler": [
+                            "Ext.Viewport.add(",
+                            "                    {",
+                            "                        xtype: 'logincontainer'",
+                            "                    }",
+                            "                    );",
+                            "                Ext.Viewport.setActiveItem(",
+                            "                {",
+                            "                    xtype: 'logincontainer'",
+                            "                });",
+                            ""
+                        ],
+                        "name": "tap"
+                    },
+                    "name": "onFirstLoginTap",
+                    "designerId": "ac6ad06e-48ef-4a0f-a0dd-47ee7549ae24"
+                }
+            ]
+        }
+    ]
+}

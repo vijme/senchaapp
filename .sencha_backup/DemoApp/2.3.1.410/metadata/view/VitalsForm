@@ -1,0 +1,181 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "vitalsform",
+        "designer|userClassName": "VitalsForm",
+        "scrollable": "vertical"
+    },
+    "name": "MyFormPanel1",
+    "designerId": "5792e9e4-4994-4491-87aa-25605aea9a8c",
+    "cn": [
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Oxygen"
+            },
+            "name": "MyTextField5",
+            "designerId": "b1d3d75d-4194-4f2b-8261-7881d3751ad1"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "HeartRate"
+            },
+            "name": "MyTextField6",
+            "designerId": "f0a00b4a-8aa4-4474-be94-bd1950bc4e50"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "BP"
+            },
+            "name": "MyTextField7",
+            "designerId": "1c79aaff-7d95-4e99-a4ed-aabc27fefdbc"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Glucose"
+            },
+            "name": "MyTextField8",
+            "designerId": "c24532cd-375d-4147-b54a-6fd21b6f6158"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Weight"
+            },
+            "name": "MyTextField9",
+            "designerId": "f8ff0332-cff0-4edf-aaff-4c5605f153c7"
+        },
+        {
+            "type": "Ext.field.Select",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Do you have SOB?",
+                "labelWidth": "70%"
+            },
+            "name": "MySelectField1",
+            "designerId": "53621593-8973-4acd-9ab9-5a32da7d9c82"
+        },
+        {
+            "type": "Ext.field.Select",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Have you had a cough?",
+                "labelWidth": "70%"
+            },
+            "name": "MySelectField2",
+            "designerId": "a02cd5a1-bdc1-4373-880d-da95a71b6488"
+        },
+        {
+            "type": "Ext.field.Select",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Do you have swelling?",
+                "labelWidth": "70%"
+            },
+            "name": "MySelectField3",
+            "designerId": "4c0a708c-73bb-4fa6-94c7-125ee35b22da"
+        },
+        {
+            "type": "Ext.field.Select",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Are you using oxygen?",
+                "labelWidth": "70%"
+            },
+            "name": "MySelectField4",
+            "designerId": "9c914c25-5538-457e-a767-bb5fab1e6719"
+        },
+        {
+            "type": "Ext.field.Select",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Have you taken medications regularly?",
+                "labelWidth": "70%",
+                "labelWrap": true
+            },
+            "name": "MySelectField5",
+            "designerId": "30173d1a-da71-43c5-af3e-f6b2fded5cb3"
+        },
+        {
+            "type": "Ext.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Additional Comments",
+                "labelAlign": "top"
+            },
+            "name": "MyTextArea",
+            "designerId": "f772c163-5b4b-4631-930f-49c0f83b5c27"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 36,
+                "text": "SUBMIT"
+            },
+            "name": "MyButton10",
+            "designerId": "d4bc810f-5fde-4bfd-8104-31189e56eb1c"
+        }
+    ]
+}

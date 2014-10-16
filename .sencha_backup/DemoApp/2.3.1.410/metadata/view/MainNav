@@ -1,0 +1,80 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mainnav",
+        "designer|userClassName": "MainNav"
+    },
+    "name": "MyNavigationView",
+    "designerId": "a99a5e7e-c9ca-467c-8d88-0467e21b3fc1",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "firstcontainer",
+            "designerId": "d0d59152-50f7-4f33-8b2b-30cdd50ea9dd",
+            "masterInstanceId": "7c327df4-9d73-4358-97dc-7f192c462d28"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "formcontainer"
+            },
+            "name": "logincontainer",
+            "designerId": "ea9ddecb-b82e-45ad-bf84-e4e518374c22",
+            "masterInstanceId": "78b54240-79b1-4a60-979e-942b89322631"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "infocontainer"
+            },
+            "name": "signcontainer",
+            "designerId": "8b0e7dbe-bc2b-4e4a-8188-52c238d408c1",
+            "masterInstanceId": "06f17b99-18da-45b4-bf16-6b70f36f6858"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "vitalSignsPanel"
+            },
+            "name": "userpanel",
+            "designerId": "aca68c68-06a8-4e8a-923c-98c949eb4e86",
+            "masterInstanceId": "ca6d03e2-0d97-41ca-9997-d92d4ae26bff"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "vitalsform",
+            "designerId": "be7cd97c-54bf-4c99-877e-4e2f695b10b8",
+            "masterInstanceId": "5792e9e4-4994-4491-87aa-25605aea9a8c"
+        }
+    ]
+}

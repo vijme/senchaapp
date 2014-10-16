@@ -1,0 +1,15 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "thankyoupanel",
+        "designer|userClassName": "thankYouPanel",
+        "html": "Thank you for entreing. Your details have been stored successfully"
+    },
+    "name": "MyPanel1",
+    "designerId": "1eb8ae8e-ed67-4dca-9559-b0f1116b537c"
+}

@@ -1,0 +1,79 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mypanel",
+        "designer|userClassName": "MyPanel",
+        "html": "heollo",
+        "requires": [
+            "Ext.data.JsonP",
+            "Ext.MessageBox"
+        ]
+    },
+    "name": "MyPanel",
+    "designerId": "3bac1d82-87e9-473b-8248-9cc7fe144407",
+    "cn": [
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "pressJSON",
+                "text": "MyButton12"
+            },
+            "name": "MyButton12",
+            "designerId": "ab814bcd-961d-45c6-8855-ae9e60b6e6ec",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onPressJSONTap",
+                        "implHandler": [
+                            "            Ext.data.JsonP.request({",
+                            "                url: \"http://127.0.0.1:3000/login/create\",",
+                            "                callbackName:'someCallback',",
+                            "                callback: function (success, result) {",
+                            "                    var text = result.responseText;",
+                            "                   Ext.Msg.alert('title',result, Ext.emptyFn);",
+                            "                }",
+                            "",
+                            "            });",
+                            ""
+                        ],
+                        "name": "tap"
+                    },
+                    "name": "onPressJSONTap",
+                    "designerId": "05ed4040-8fd5-40bb-9972-ab0e79a76f35"
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": null,
+                "designer|displayName": "txtResult",
+                "label": "Field",
+                "name": "txtResult"
+            },
+            "name": "MyTextField",
+            "designerId": "92cc619e-5322-47f1-a2f4-c040cd805ef1"
+        }
+    ]
+}

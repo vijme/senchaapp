@@ -1,0 +1,291 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "signcontainer",
+        "designer|userClassName": "SignContainer",
+        "requires": [
+            "Ext.Ajax",
+            "Ext.MessageBox"
+        ],
+        "scrollable": "vertical"
+    },
+    "name": "MyContainer",
+    "designerId": "06f17b99-18da-45b4-bf16-6b70f36f6858",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "SIGN UP"
+            },
+            "name": "MyTitleBar",
+            "designerId": "e9e9cb8d-abd7-4ee7-af3a-6555a4253106",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "back",
+                        "docked": "left",
+                        "itemId": "mybutton4",
+                        "text": "BACK",
+                        "ui": "back"
+                    },
+                    "name": "MyButton4",
+                    "designerId": "ff8c0e7d-4698-44d8-9395-cf7c91428c79",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onMybutton4Tap",
+                                "implHandler": [
+                                    "",
+                                    "",
+                                    "Ext.Viewport.add(",
+                                    "                    {",
+                                    "                        xtype: 'firstcontainer'",
+                                    "                    }",
+                                    "                    );",
+                                    "                Ext.Viewport.setActiveItem(",
+                                    "                {",
+                                    "                    xtype: 'firstcontainer'",
+                                    "                });",
+                                    ""
+                                ],
+                                "name": "tap"
+                            },
+                            "name": "onMybutton4Tap",
+                            "designerId": "431b47a8-2b20-44f0-a815-d413823ff2d0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "clearIcon": false,
+                "id": "txtFName",
+                "itemId": "txtName",
+                "label": "First Name",
+                "labelWidth": "35%",
+                "required": true
+            },
+            "name": "MyTextField2",
+            "designerId": "2c3be563-b74c-4c24-a81c-bd36e245d3cb"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "clearIcon": false,
+                "id": "txtLName",
+                "itemId": "txtLName",
+                "label": "Last Name",
+                "labelWidth": "35%",
+                "maxLength": 80,
+                "required": true
+            },
+            "name": "MyTextField1",
+            "designerId": "5f4018c4-011f-40c9-a019-bc54ff572808"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "txtHospID",
+                "label": "HospitalID",
+                "labelWidth": "35%",
+                "maxLength": 40,
+                "required": true
+            },
+            "name": "MyTextField4",
+            "designerId": "9c663ec8-b674-4c19-8fb3-dea86c4ca944"
+        },
+        {
+            "type": "Ext.field.Email",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "txtEmail",
+                "label": "emailID",
+                "labelWidth": "35%",
+                "maxLength": 80,
+                "placeHolder": "email@example.com",
+                "required": true
+            },
+            "name": "MyEmailField",
+            "designerId": "bbdfcb43-8c21-4462-9461-158796955815"
+        },
+        {
+            "type": "Ext.field.Password",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 52,
+                "id": "txtRePasswd",
+                "label": "Retype Passwd",
+                "labelWidth": "45%",
+                "labelWrap": true,
+                "maxLength": 15,
+                "required": true
+            },
+            "name": "MyPasswordField1",
+            "designerId": "07da876d-29b4-482a-a04d-8c440adc3317"
+        },
+        {
+            "type": "Ext.field.Password",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "txtPasswd",
+                "label": "Passwd",
+                "labelWidth": "45%",
+                "maxLength": 15,
+                "required": true
+            },
+            "name": "MyPasswordField",
+            "designerId": "a5b4f462-7441-4642-8b5d-a98601caf9b5"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "pressSIGNUP",
+                "text": "SIGNUP"
+            },
+            "name": "MyButton3",
+            "designerId": "b866b12b-248f-4b73-a147-42e5aa381bc2",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onPressSIGNUPTap",
+                        "implHandler": [
+                            "var name = Ext.getCmp('txtName').getValue(),",
+                            "    email = Ext.getCmp('txtEmail').getValue(),",
+                            "    hospID = Ext.getCmp('txtHospID').getValue(),",
+                            "    passwd = Ext.getCmp('txtPasswd').getValue(),",
+                            "    passwd2 = Ext.getCmp('txtRePasswd').getValue();",
+                            "",
+                            "if (passwd != passwd2){",
+                            "    Ext.Msg.alert('ALERT', 'Passwords donot match', Ext.emptyFn);",
+                            "}",
+                            "else{",
+                            "//var xhr = new XMLHttpRequest();",
+                            "",
+                            "//xhr.open('POST', 'http://127.0.0.1:3000/registers' );",
+                            "//params",
+                            "//xhr.send(name);",
+                            "",
+                            "Ext.Ajax.request({",
+                            "    url: 'http://127.0.0.1:3000/registers.json',",
+                            "    method: 'POST',",
+                            "",
+                            "    type:'jsonp',",
+                            "    useDefaultXhrHeader: false,",
+                            "",
+                            "    params:",
+                            "    {",
+                            "        name : name,",
+                            "        hospID: hospID,",
+                            "        email: email,",
+                            "        passwd: passwd",
+                            "",
+                            "    },",
+                            "    callback: this.registerStatusCallback,",
+                            "",
+                            "    success: function(response, opts){",
+                            "        Ext.Msg.alert('REGISTRATION STATUS', 'Success', Ext.emptyFn);",
+                            "        Ext.Viewport.add(",
+                            "           {   xtype: 'logincontainer'  }",
+                            "        );",
+                            "        Ext.Viewport.setActiveItem(",
+                            "           {   xtype: 'logincontainer'  }",
+                            "        );",
+                            "",
+                            "    },",
+                            "    failure: function(response, opts){",
+                            "         Ext.Msg.alert('REGISTRATION STATUS','Failed', Ext.emptyFn);  ",
+                            "    },",
+                            "    scope:this",
+                            "",
+                            "});",
+                            "",
+                            "}",
+                            "",
+                            ""
+                        ],
+                        "name": "tap"
+                    },
+                    "name": "onPressSIGNUPTap",
+                    "designerId": "deb58345-e17d-4c81-8c62-72d794eda463"
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Birthday"
+            },
+            "name": "MyTextField3",
+            "designerId": "95547e0d-765e-4dc5-8569-91c7c75e1754"
+        }
+    ]
+}

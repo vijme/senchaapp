@@ -1,0 +1,108 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "centered": false,
+        "designer|userAlias": "userpanel",
+        "designer|userClassName": "UserPanel",
+        "html": null,
+        "padding": 50
+    },
+    "name": "MyPanel",
+    "designerId": "ca6d03e2-0d97-41ca-9997-d92d4ae26bff",
+    "cn": [
+        {
+            "type": "Ext.picker.Date",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bottom": 40,
+                "designer|displayName": "Pick the date",
+                "height": 300,
+                "html": null,
+                "value": 1411444800000,
+                "yearFrom": 1930,
+                "yearTo": 2100
+            },
+            "name": "MyDatePicker2",
+            "designerId": "f854946b-3473-4c01-885f-25a51a385fd9",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "doneButton",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Done"
+                    },
+                    "name": "MyButton8",
+                    "designerId": "ab28285e-f777-456b-9ab4-dda1c0321e62"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "cancelButton",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Cancel"
+                    },
+                    "name": "MyButton9",
+                    "designerId": "bddaaa08-485e-486f-8410-1b0bd3a6a0a6"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "mybutton7",
+                "text": "Enter Vital Signs For:"
+            },
+            "name": "MyButton7",
+            "designerId": "fe24cd36-9f22-43a4-a0bc-6e36f574478b",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onMybutton7Tap",
+                        "implHandler": [
+                            "Ext.Viewport.add(",
+                            "                    {",
+                            "                        xtype: 'vitalsform'",
+                            "                    }",
+                            "                    );",
+                            "                Ext.Viewport.setActiveItem(",
+                            "                {",
+                            "                    xtype: 'vitalsform'",
+                            "                });",
+                            ""
+                        ],
+                        "name": "tap"
+                    },
+                    "name": "onMybutton7Tap",
+                    "designerId": "7ae83b58-04dc-4886-8b23-53b08de38eeb"
+                }
+            ]
+        }
+    ]
+}

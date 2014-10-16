@@ -1,0 +1,37 @@
+{
+    "type": "Ext.carousel.Carousel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyCarousel"
+    },
+    "name": "MyCarousel",
+    "designerId": "0e6b9ada-7dea-4f5c-bf69-e82429be21bf",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "mypanel",
+            "designerId": "a2c0145c-e2b0-4527-922a-54096c6c87e3",
+            "masterInstanceId": "3bac1d82-87e9-473b-8248-9cc7fe144407"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "firstcontainer",
+            "designerId": "aea50832-e2d7-4787-ba31-9eff298554d7",
+            "masterInstanceId": "7c327df4-9d73-4358-97dc-7f192c462d28"
+        }
+    ]
+}

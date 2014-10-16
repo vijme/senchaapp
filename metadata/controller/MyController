@@ -1,0 +1,110 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyController",
+        "views": [
+            "SignContainer",
+            "LoginContainer",
+            "UserPanel",
+            "MyPanel"
+        ]
+    },
+    "name": "MyController",
+    "designerId": "814fe595-b00e-4e0b-a30c-54b87c123137",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#pressLOGIN",
+                "designer|targetType": "Ext.Button",
+                "fn": "onButtonTap",
+                "implHandler": [
+                    "Ext.Viewport.add(",
+                    "            {",
+                    "                xtype: 'userpanel'",
+                    "            }",
+                    "            );",
+                    "        Ext.Viewport.setActiveItem(",
+                    "        {",
+                    "            xtype: 'userpanel'",
+                    "        });"
+                ],
+                "name": "tap"
+            },
+            "name": "onButtonTap",
+            "designerId": "eb01dcf0-20c7-4be0-a571-d8e785f1daf4"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#pressSUBMIT",
+                "designer|targetType": "Ext.Button",
+                "fn": "onButtonTap2",
+                "implHandler": [
+                    "Ext.Viewport.add(",
+                    "            {",
+                    "                xtype: 'thankyoupanel'",
+                    "            }",
+                    "            );",
+                    "        Ext.Viewport.setActiveItem(",
+                    "        {",
+                    "            xtype: 'thankyoupanel'",
+                    "        });"
+                ],
+                "name": "tap"
+            },
+            "name": "onButtonTap2",
+            "designerId": "cce61c97-d722-4a2e-980d-7a8880b7d18b"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#pressJSON",
+                "designer|targetType": "Ext.Button",
+                "fn": "onButtonTap3",
+                "implHandler": [
+                    "//Ext.Viewport.mask();",
+                    "",
+                    "",
+                    "// Ext.data.JSONP.request({",
+                    "//     url: 'http://127.0.0.1:3000/login/create',",
+                    "//     callbackKey: 'callback',",
+                    "",
+                    "//     success: function(result,request){",
+                    "//Ext.Viewport.unmask();",
+                    "          Ext.Viewport.setStyleHtmlContent(true);",
+                    "            Ext.Viewport.setHtml('Nothing is coming');",
+                    "//          Ext.Viewport.setHtml(result.data);",
+                    "//this.getmypanel().setHtml('updated');",
+                    "",
+                    "// }",
+                    "// });",
+                    ""
+                ],
+                "name": "tap"
+            },
+            "name": "onButtonTap3",
+            "designerId": "0c977165-11e7-4afd-b1e8-3780ed77c9cb"
+        }
+    ]
+}

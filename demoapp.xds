@@ -1,0 +1,64 @@
+{
+    "name": "demoapp",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "5.0.2.270",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost:1841/demoapp",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "projectHasEnabledWebServer": false,
+        "lockUrlPrefix": false,
+        "installStatus": "Not Installed",
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
+        }
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1903,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "78b54240-79b1-4a60-979e-942b89322631",
+            "06f17b99-18da-45b4-bf16-6b70f36f6858",
+            "7c327df4-9d73-4358-97dc-7f192c462d28",
+            "ca6d03e2-0d97-41ca-9997-d92d4ae26bff",
+            "5792e9e4-4994-4491-87aa-25605aea9a8c",
+            "3bac1d82-87e9-473b-8248-9cc7fe144407",
+            "0e6b9ada-7dea-4f5c-bf69-e82429be21bf",
+            "1eb8ae8e-ed67-4dca-9559-b0f1116b537c"
+        ],
+        "store": [],
+        "controller": [
+            "814fe595-b00e-4e0b-a30c-54b87c123137"
+        ],
+        "model": [],
+        "resource": [
+            "fbaad4f6-10ca-45ba-87d0-262ea2695444",
+            "4c51fe7c-235b-4d03-a1ef-3774562a6b92"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
